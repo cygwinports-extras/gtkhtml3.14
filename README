@@ -48,16 +48,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtkhtml314-3.14.2-X-src.tar.bz2
+  unpack gtkhtml314-3.14.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtkhtml314-3.14.2-X.cygport all
+  cygport ./gtkhtml314-3.14.3-X.cygport all
 
 This will create:
-  /usr/src/gtkhtml314-3.14.2-X-src.tar.bz2
-  /usr/src/gtkhtml314-3.14.2-X.tar.bz2
-  /usr/src/gtkhtml314-devel-3.14.2-X.tar.bz2
+  /usr/src/gtkhtml314-3.14.3-X-src.tar.bz2
+  /usr/src/gtkhtml314-3.14.3-X.tar.bz2
+  /usr/src/gtkhtml314-devel-3.14.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -68,16 +68,16 @@ Files included in the binary packages:
   /usr/lib/bonobo/servers/GNOME_GtkHTML_Editor-3.14.server
   /usr/lib/gtkhtml/cyggnome-gtkhtml-editor-3.14.dll
   /usr/lib/gtkhtml/libgnome-gtkhtml-editor-3.14.la
-  /usr/share/doc/Cygwin/gtkhtml314-3.14.2.README
-  /usr/share/doc/gtkhtml314-3.14.2/AUTHORS
-  /usr/share/doc/gtkhtml314-3.14.2/BUGS
-  /usr/share/doc/gtkhtml314-3.14.2/COPYING
-  /usr/share/doc/gtkhtml314-3.14.2/COPYING.LIB
-  /usr/share/doc/gtkhtml314-3.14.2/ChangeLog
-  /usr/share/doc/gtkhtml314-3.14.2/INSTALL
-  /usr/share/doc/gtkhtml314-3.14.2/NEWS
-  /usr/share/doc/gtkhtml314-3.14.2/README
-  /usr/share/doc/gtkhtml314-3.14.2/TODO
+  /usr/share/doc/Cygwin/gtkhtml314-3.14.3.README
+  /usr/share/doc/gtkhtml314-3.14.3/AUTHORS
+  /usr/share/doc/gtkhtml314-3.14.3/BUGS
+  /usr/share/doc/gtkhtml314-3.14.3/COPYING
+  /usr/share/doc/gtkhtml314-3.14.3/COPYING.LIB
+  /usr/share/doc/gtkhtml314-3.14.3/ChangeLog
+  /usr/share/doc/gtkhtml314-3.14.3/INSTALL
+  /usr/share/doc/gtkhtml314-3.14.3/NEWS
+  /usr/share/doc/gtkhtml314-3.14.3/README
+  /usr/share/doc/gtkhtml314-3.14.3/TODO
   /usr/share/gtkhtml-3.14/GNOME_GtkHTML_Editor-emacs.xml
   /usr/share/gtkhtml-3.14/GNOME_GtkHTML_Editor.xml
   /usr/share/gtkhtml-3.14/gtkhtml-editor-properties.glade
@@ -192,6 +192,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 3.14.3-1 -----
+Version bump.
 
 ----- version 3.14.2-1 -----
 Initial release of 3.14 branch for Cygwin.

@@ -6,22 +6,22 @@ being developed independently.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  ORBit2-2.14.7-1
-  atk-1.18.0-1
-  gdk-pixbuf2-2.10.13-1
-  glib2-2.12.12-2
-  gtk2-x11-2.10.13-1
-  libbonobo2-2.18.0-1
-  libbonoboui2-2.18.0-1
-  libcairo2-1.4.8-1
-  libgailutil18-1.18.0-1
-  libglade2-2.6.1-1
-  libgnome2-2.18.0-1
-  libgnomecanvas2-2.14.0-1
-  libgnomeui2-2.18.1-1
+  GConf2-2.20.1-1
+  ORBit2-2.14.10-1
+  atk-1.20.0-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
+  libbonobo2-2.20.1-1
+  libbonoboui2-2.20.0-1
+  libcairo2-1.4.12-1
+  libgailutil18-1.20.2-1
+  libglade2-2.6.2-1
+  libgnome2-2.20.1.1-1
+  libgnomecanvas2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
   libintl8-0.15-1
-  pango-1.16.4-1
+  pango-1.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -48,16 +48,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtkhtml314-3.14.3-X-src.tar.bz2
+  unpack gtkhtml314-3.16.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtkhtml314-3.14.3-X.cygport all
+  cygport ./gtkhtml314-3.16.2-X.cygport all
 
 This will create:
-  /usr/src/gtkhtml314-3.14.3-X-src.tar.bz2
-  /usr/src/gtkhtml314-3.14.3-X.tar.bz2
-  /usr/src/gtkhtml314-devel-3.14.3-X.tar.bz2
+  /usr/src/gtkhtml314-3.16.2-X-src.tar.bz2
+  /usr/src/gtkhtml314-3.16.2-X.tar.bz2
+  /usr/src/gtkhtml314-devel-3.16.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -68,16 +68,16 @@ Files included in the binary packages:
   /usr/lib/bonobo/servers/GNOME_GtkHTML_Editor-3.14.server
   /usr/lib/gtkhtml/cyggnome-gtkhtml-editor-3.14.dll
   /usr/lib/gtkhtml/libgnome-gtkhtml-editor-3.14.la
-  /usr/share/doc/Cygwin/gtkhtml314-3.14.3.README
-  /usr/share/doc/gtkhtml314-3.14.3/AUTHORS
-  /usr/share/doc/gtkhtml314-3.14.3/BUGS
-  /usr/share/doc/gtkhtml314-3.14.3/COPYING
-  /usr/share/doc/gtkhtml314-3.14.3/COPYING.LIB
-  /usr/share/doc/gtkhtml314-3.14.3/ChangeLog
-  /usr/share/doc/gtkhtml314-3.14.3/INSTALL
-  /usr/share/doc/gtkhtml314-3.14.3/NEWS
-  /usr/share/doc/gtkhtml314-3.14.3/README
-  /usr/share/doc/gtkhtml314-3.14.3/TODO
+  /usr/share/doc/Cygwin/gtkhtml314-3.16.2.README
+  /usr/share/doc/gtkhtml314-3.16.2/AUTHORS
+  /usr/share/doc/gtkhtml314-3.16.2/BUGS
+  /usr/share/doc/gtkhtml314-3.16.2/COPYING
+  /usr/share/doc/gtkhtml314-3.16.2/COPYING.LIB
+  /usr/share/doc/gtkhtml314-3.16.2/ChangeLog
+  /usr/share/doc/gtkhtml314-3.16.2/INSTALL
+  /usr/share/doc/gtkhtml314-3.16.2/NEWS
+  /usr/share/doc/gtkhtml314-3.16.2/README
+  /usr/share/doc/gtkhtml314-3.16.2/TODO
   /usr/share/gtkhtml-3.14/GNOME_GtkHTML_Editor-emacs.xml
   /usr/share/gtkhtml-3.14/GNOME_GtkHTML_Editor.xml
   /usr/share/gtkhtml-3.14/gtkhtml-editor-properties.glade
@@ -104,6 +104,7 @@ Files included in the binary packages:
   /usr/share/gtkhtml-3.14/keybindingsrc.emacs
   /usr/share/locale/am/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ar/LC_MESSAGES/gtkhtml-3.14.mo
+  /usr/share/locale/as/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/az/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/be/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/bg/LC_MESSAGES/gtkhtml-3.14.mo
@@ -149,6 +150,7 @@ Files included in the binary packages:
   /usr/share/locale/ne/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/nl/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/nn/LC_MESSAGES/gtkhtml-3.14.mo
+  /usr/share/locale/oc/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/or/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/pa/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/pl/LC_MESSAGES/gtkhtml-3.14.mo
@@ -157,6 +159,7 @@ Files included in the binary packages:
   /usr/share/locale/ro/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ru/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/rw/LC_MESSAGES/gtkhtml-3.14.mo
+  /usr/share/locale/si/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/sk/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/sl/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/sq/LC_MESSAGES/gtkhtml-3.14.mo
@@ -192,6 +195,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 3.16.2-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 3.14.3-1 -----
 Version bump.

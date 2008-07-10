@@ -1,0 +1,10 @@
+ORIG_PN=${PN%%[0-9]*}
+inherit gnome2
+
+DESCRIPTION="GNOME Evolution HTML rendering/printing/editing engine"
+HOMEPAGE="http://www.gnome.org/projects/evolution/"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]='--exclude=*.idl usr/bin/ usr/lib/bonobo/ usr/lib/gtkhtml/ usr/share/'
+PKG_CONTENTS[1]="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtkhtml-3.14/*.idl"

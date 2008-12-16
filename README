@@ -1,4 +1,4 @@
-gtkhtml314
+gtkhtml3.14
 -------------------------------------------
 GtkHTML is a lightweight HTML rendering/printing/editing engine.  It
 was originally based on KHTMLW, part of the KDE project, but is now
@@ -6,35 +6,31 @@ being developed independently.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  GConf2-2.22.0-1
-  ORBit2-2.14.13-1
-  atk-1.22.0-1
-  gdk-pixbuf2-2.12.10-1
-  glib2-2.16.3-1
-  gtk2-x11-2.12.10-1
-  libbonobo2-2.22.0-1
-  libbonoboui2-2.22.0-1
-  libcairo2-1.6.4-1
-  libgailutil18-1.22.3-1
-  libglade2-2.6.2-1
-  libgnome2-2.22.0-1
-  libgnomecanvas2-2.20.1.1-1
-  libgnomeui2-2.22.1-1
-  libintl8-0.15-1
-  pango-1.20.3-1
+  libatk1.0_0-1.24.0-1
+  libcairo2-1.8.4-1
+  libenchant1-1.4.2-2
+  libgailutil18-2.14.5-1
+  libgconf2_4-2.24.0-1
+  libgdk_pixbuf2.0_0-2.14.5-1
+  libglade2.0_0-2.6.3-2
+  libglib2.0_0-2.18.3-1
+  libgnome2_0-2.24.1-1
+  libgtk2.0_0-2.14.5-1
+  libintl8-0.17-2
+  libpango1.0_0-1.22.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20080523-1
-  cygport-0.3.12-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gettext-devel-0.15-1
-  gnome-common-2.20.0-2
-  intltool-0.37.1-1
-  libtool-2.2.2-2
+  gettext-devel-0.17-2
+  gnome-common-2.24.0-1
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -48,38 +44,36 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtkhtml314-3.18.3-X-src.tar.bz2
+  unpack gtkhtml3.14-3.24.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtkhtml314-3.18.3-X.cygport all
+  cygport ./gtkhtml3.14-3.24.2-X.cygport all
 
 This will create:
-  /usr/src/gtkhtml314-3.18.3-X-src.tar.bz2
-  /usr/src/gtkhtml314-3.18.3-X.tar.bz2
-  /usr/src/gtkhtml314-devel-3.18.3-X.tar.bz2
+  /usr/src/gtkhtml3.14-3.24.2-X-src.tar.bz2
+  /usr/src/libgtkhtml-editor-devel-3.24.2-X.tar.bz2
+  /usr/src/libgtkhtml-editor0-3.24.2-X.tar.bz2
+  /usr/src/libgtkhtml3.14-devel-3.24.2-X.tar.bz2
+  /usr/src/libgtkhtml3.14_19-3.24.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(gtkhtml314)
+(libgtkhtml3.14_19)
   /usr/bin/cyggtkhtml-3.14-19.dll
-  /usr/lib/bonobo/servers/GNOME_GtkHTML_Editor-3.14.server
-  /usr/lib/gtkhtml/cyggnome-gtkhtml-editor-3.14.dll
-  /usr/lib/gtkhtml/libgnome-gtkhtml-editor-3.14.la
-  /usr/share/doc/gtkhtml314-3.18.3/AUTHORS
-  /usr/share/doc/gtkhtml314-3.18.3/BUGS
-  /usr/share/doc/gtkhtml314-3.18.3/COPYING
-  /usr/share/doc/gtkhtml314-3.18.3/COPYING.LIB
-  /usr/share/doc/gtkhtml314-3.18.3/ChangeLog
-  /usr/share/doc/gtkhtml314-3.18.3/INSTALL
-  /usr/share/doc/gtkhtml314-3.18.3/NEWS
-  /usr/share/doc/gtkhtml314-3.18.3/README
-  /usr/share/doc/gtkhtml314-3.18.3/TODO
-  /usr/share/gtkhtml-3.14/GNOME_GtkHTML_Editor-emacs.xml
-  /usr/share/gtkhtml-3.14/GNOME_GtkHTML_Editor.xml
-  /usr/share/gtkhtml-3.14/gtkhtml-editor-properties.glade
+  /usr/share/doc/gtkhtml3.14-3.24.2/AUTHORS
+  /usr/share/doc/gtkhtml3.14-3.24.2/BUGS
+  /usr/share/doc/gtkhtml3.14-3.24.2/COPYING
+  /usr/share/doc/gtkhtml3.14-3.24.2/COPYING.LIB
+  /usr/share/doc/gtkhtml3.14-3.24.2/ChangeLog
+  /usr/share/doc/gtkhtml3.14-3.24.2/INSTALL
+  /usr/share/doc/gtkhtml3.14-3.24.2/NEWS
+  /usr/share/doc/gtkhtml3.14-3.24.2/README
+  /usr/share/doc/gtkhtml3.14-3.24.2/TODO
+  /usr/share/gtkhtml-3.14/gtkhtml-editor.glade
+  /usr/share/gtkhtml-3.14/gtkhtml-editor.ui
   /usr/share/gtkhtml-3.14/icons/bulb.png
   /usr/share/gtkhtml-3.14/icons/confidential-stamp.jpg
   /usr/share/gtkhtml-3.14/icons/draft-paper.png
@@ -135,6 +129,7 @@ Files included in the binary packages:
   /usr/share/locale/it/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ja/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ka/LC_MESSAGES/gtkhtml-3.14.mo
+  /usr/share/locale/kn/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ko/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ku/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/lt/LC_MESSAGES/gtkhtml-3.14.mo
@@ -163,9 +158,10 @@ Files included in the binary packages:
   /usr/share/locale/sl/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/sq/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/sr/LC_MESSAGES/gtkhtml-3.14.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/gtkhtml-3.14.mo
+  /usr/share/locale/sr@latin/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/sv/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/ta/LC_MESSAGES/gtkhtml-3.14.mo
+  /usr/share/locale/te/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/th/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/tr/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/uk/LC_MESSAGES/gtkhtml-3.14.mo
@@ -175,7 +171,10 @@ Files included in the binary packages:
   /usr/share/locale/zh_HK/LC_MESSAGES/gtkhtml-3.14.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/gtkhtml-3.14.mo
 
-(gtkhtml314-devel)
+(libgtkhtml-editor0)
+  /usr/bin/cyggtkhtml-editor-0.dll
+
+(libgtkhtml3.14-devel)
   /usr/include/libgtkhtml-3.14/gtkhtml/gtkhtml-embedded.h
   /usr/include/libgtkhtml-3.14/gtkhtml/gtkhtml-enums.h
   /usr/include/libgtkhtml-3.14/gtkhtml/gtkhtml-properties.h
@@ -189,11 +188,24 @@ Files included in the binary packages:
   /usr/lib/libgtkhtml-3.14.dll.a
   /usr/lib/libgtkhtml-3.14.la
   /usr/lib/pkgconfig/libgtkhtml-3.14.pc
-  /usr/share/gtkhtml-3.14/Editor.idl
+
+(libgtkhtml-editor-devel)
+  /usr/include/libgtkhtml-3.14/editor/gtkhtml-editor-actions.h
+  /usr/include/libgtkhtml-3.14/editor/gtkhtml-editor-common.h
+  /usr/include/libgtkhtml-3.14/editor/gtkhtml-editor-widgets.h
+  /usr/include/libgtkhtml-3.14/editor/gtkhtml-editor.h
+  /usr/include/libgtkhtml-3.14/editor/gtkhtml-spell-checker.h
+  /usr/include/libgtkhtml-3.14/editor/gtkhtml-spell-language.h
+  /usr/lib/libgtkhtml-editor.dll.a
+  /usr/lib/libgtkhtml-editor.la
+  /usr/lib/pkgconfig/gtkhtml-editor.pc
 
 ------------------
 
 Port Notes:
+
+----- version 3.24.2-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 3.18.3-1 -----
 Version bump.

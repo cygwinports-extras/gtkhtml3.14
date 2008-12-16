@@ -1,0 +1,7 @@
+category: Gnome
+requires: cygwin libgtkhtml-editor0 libcairo-devel libenchant-devel libglade2.0-devel libglib2.0-devel libgnome2-devel libgtk2.0-devel libgtkhtml3.14-devel gettext
+external-source: gtkhtml3.14
+sdesc: "GNOME HTML rendering/printing/editing engine (editor runtime)"
+ldesc: "GtkHTML is a lightweight HTML rendering/printing/editing engine.  It
+was originally based on KHTMLW, part of the KDE project, but is now
+being developed independently."

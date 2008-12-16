@@ -1,7 +1,0 @@
-category: Gnome
-requires: cygwin gtkhtml314 GConf2-devel ORBit2-devel atk-devel glib2-devel gtk2-x11-devel libbonobo2-devel libbonoboui2-devel libcairo-devel libgailutil-devel libglade2-devel libgnome2-devel libgnomecanvas2-devel libgnomeui2-devel gettext pango-devel
-external-source: gtkhtml314
-sdesc: "GNOME HTML rendering/printing/editing engine (development)"
-ldesc: "GtkHTML is a lightweight HTML rendering/printing/editing engine.  It
-was originally based on KHTMLW, part of the KDE project, but is now
-being developed independently."

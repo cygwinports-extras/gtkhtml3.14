@@ -27,3 +27,12 @@
  	$(top_builddir)/gtkhtml/libgtkhtml-@EDITOR_API_VERSION@.la
  
  gtkhtml-editor-marshal.h: gtkhtml-editor-marshal.list $(GLIB_GENMARSHAL)
+--- origsrc/gtkhtml-3.32.1/components/editor/gtkhtml-editor.pc.in	2010-09-22 00:14:26.000000000 -0500
++++ src/gtkhtml-3.32.1/components/editor/gtkhtml-editor.pc.in	2010-12-16 02:49:52.726756100 -0600
+@@ -9,5 +9,5 @@ Name: gtkhtml-editor
+ Description: HTML editor widget
+ Requires: libgtkhtml-@GTKHTML_API_VERSION@
+ Version: @VERSION@
+-Libs: -L${libdir} -lgtkhtml-editor-@GTKHTML_API_VERSION@
++Libs: -L${libdir} -lgtkhtml-editor
+ Cflags: -I${includedir}/libgtkhtml-@GTKHTML_API_VERSION@/editor

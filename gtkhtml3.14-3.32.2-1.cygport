@@ -1,0 +1,13 @@
+ORIG_PN="gtkhtml"
+inherit gnome2
+
+DESCRIPTION="GNOME Evolution HTML rendering/printing/editing engine"
+HOMEPAGE="http://www.gnome.org/projects/evolution/"
+
+PKG_NAMES="lib${PN}_19 libgtkhtml-editor3.14_0 lib${PN}-devel"
+libgtkhtml_editor3_14_0_CONTENTS="usr/bin/cyggtkhtml-editor-3.14-0.dll"
+libgtkhtml3_14_19_CONTENTS="usr/bin/cyggtkhtml-3.14-19.dll usr/share/"
+libgtkhtml3_14_devel_CONTENTS="usr/include/ usr/lib/"
+PKG_IGNORE="usr/bin/gtkhtml-editor-test.exe"
+
+CYGCONF_ARGS="--disable-deprecated-warning-flags"

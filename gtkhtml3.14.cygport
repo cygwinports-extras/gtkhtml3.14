@@ -1,0 +1,22 @@
+ORIG_PN="gtkhtml"
+inherit gnome2
+
+NAME="gtkhtml3.14"
+VERSION=3.32.2
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="GNOME HTML rendering/printing/editing engine"
+DESCRIPTION="GtkHTML is a lightweight HTML rendering/printing/editing engine.
+It was originally based on KHTMLW, part of the KDE project, but is now
+being developed independently."
+HOMEPAGE="http://www.gnome.org/projects/evolution/"
+
+PATCH_URI="3.32.2-gthread.patch"
+
+PKG_NAMES="lib${NAME}_19 libgtkhtml-editor3.14_0 lib${NAME}-devel"
+libgtkhtml_editor3_14_0_CONTENTS="usr/bin/cyggtkhtml-editor-3.14-0.dll"
+libgtkhtml3_14_19_CONTENTS="usr/bin/cyggtkhtml-3.14-19.dll usr/share/"
+libgtkhtml3_14_devel_CONTENTS="usr/include/ usr/lib/"
+PKG_IGNORE="usr/bin/gtkhtml-editor-test.exe"
+
+CYGCONF_ARGS="--disable-deprecated-warning-flags"
